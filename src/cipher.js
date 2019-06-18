@@ -1,5 +1,6 @@
 window.cipher = {
     encode:(num,tex)=>{
+      num = parseInt(num);
       let code= '';
       for (let i= 0; i < tex.length; i++){
         let letter= tex.charCodeAt(i)
@@ -16,6 +17,7 @@ window.cipher = {
 
 
     decode: (numero,texto)=>{
+      numero= parseInt(numero);
   let code1= '';
   for (let i= 0; i < texto.length; i++){
     let letter1= texto.charCodeAt(i)
