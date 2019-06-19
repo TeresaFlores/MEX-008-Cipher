@@ -6,25 +6,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <div id="root">
+
+      <header class= "encabezado4"> BANCO NACIONAL </header>
+
+      <div class= "entrada"> 
+          <img src = "../imagenes/administrador2.jpg">
+      
+      </div>
+
       <h1>SISTEMA DE ARCHIVOS DE FORMULACIÓN DE CLAVES</h1>
+
+      
       <p>Por favor ingrese sus datos</p>
       <br> 
-      <form>   
-      <p>Departamento o área <select name="" id="">
-          <option value="Soporte">Soporte</option>
-          <option value="Legal">Legal</option>
-          <option vaue= "Desarrollo">Desarrollo</option>
-      </select> </p>
-      <p>No. de empleado <input type="text" placeholder="Numero " maxlength="4" id="number"></p>
-      <p>Ingresa una palabra <input type="text" placeholder="Palabra" id="text" > </p>
-      <p> <input type= "button" value="Crear" id="crear" ></p>
-      <br>
-      <p>Esta es la clave de acceso <input type="text" id="mostrar" readonly="readonly"> </p>
+    <class="cuerpo">   
+          <p>Departamento o área <select name="" id="">
+              <option value="Soporte">Soporte</option>
+              <option value="Legal">Legal</option>
+              <option vaue= "Desarrollo">Desarrollo</option>
+          </select> </p>
 
-    <br>
-      <p><button onclick="">SALIR </button></p>
-     </form> 
+          <p>No. de empleado <input type="text" placeholder="Numero " maxlength="4" id="number"></p>
+          <p>Ingresa una palabra <input type="text" placeholder="Palabra" id="text" > </p>
+          <p> <input type= "button" value="Crear" id="crear" ></p>
+          <br>
+          <p>Esta es la clave de acceso <input type="text" id="mostrar" readonly="readonly"> </p>
+
+          <br>
+          <p><button onclick="location.href='index.html'"> SALIR </button></p>
+     
+    </class>
 
     </div>
     <script src="cipher.js"></script>

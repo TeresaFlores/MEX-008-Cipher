@@ -1,7 +1,7 @@
--informacion sobre el proceso  y decision de diseño
--explica claramente quienes son los usuarios y su relacion con el producto
--explica como el producto soluciona los problemas / necesidades de los usuarios
-
+Este proyecto "Caesar Cipher" surgió de la idea de generar claves para cajas fuertes, que mas tarde con las pruebas de usuario comentaron sobre su poca funcionalidad. La idea fue cambiada a cámaras de vídeo, que también fue descartado por ser poco útil para al momento de compartir claves de acceso a terceros.  
+Por ultimo, y pensando en hacer algo mas útil, decidí dejar el proyecto para el acceso a la información que tienen las empresas y que deciden compartir con sus empleados. Por lo que lo enfoque en el giro Bancario; el diseño trato de ser formal y teniendo inspiración en el portal del banco BBVA Bancomer que considero es un portal muy agradable a la vista.
+En este caso los usuarios serian los bancos y sus empleados. El banco tendría un portal para acceder a los archivos importantes  que necesitan varias áreas dentro de la empresa, lo cual requiere de un filtro de acceso que un administrador debe controlar, y que solo brindara la entrada con una claves  cifrada que se proporcionaran al empleado y que este deberá descifrar para su acceso.
+La solución recae en el control y limitación al los archivos delicados  de la empresa que bien podría ser de cualquier giro.  
 
 # Cifrado César
 
