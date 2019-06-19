@@ -69,7 +69,11 @@ img{
 
 /*Formato de formulario*/
 .cuerpo{
-    width= 300 px;
-    margin= 0 auto;
-    background-color= #808000;
+    width: 300 px;
+    margin: 0 auto;
+    height: 200px;
+    background-color:#C0C0C0;
+}
+.mostrar{
+    tex
 }
