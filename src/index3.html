@@ -5,7 +5,7 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="estructura">
 
     <div id="root">
 
@@ -15,14 +15,19 @@
           <img src = "../imagenes/administrador2.jpg">
       
       </div>
+<center> 
+  
+      <h1 >SISTEMA DE ARCHIVOS DE FORMULACIÓN DE CLAVES</h1>
 
-      <h1>SISTEMA DE ARCHIVOS DE FORMULACIÓN DE CLAVES</h1>
-
-      
+     <div class="cuerpo">  
       <p>Por favor ingrese sus datos</p>
       <br> 
-    <div class="cuerpo">   
-          <p>Departamento o área <select name="" id="">
+    
+    
+      
+     
+     
+          <p>Departamento o área <select name="" id="lista">
               <option value="Soporte">Soporte</option>
               <option value="Legal">Legal</option>
               <option vaue= "Desarrollo">Desarrollo</option>
@@ -30,18 +35,23 @@
 
           <p>No. de empleado <input type="text" placeholder="Numero " maxlength="4" id="number"></p>
           <p>Ingresa una palabra <input type="text" placeholder="Palabra" id="text" > </p>
-          <p> <input type= "button" value="Crear" id="crear" ></p>
-          <br>
-          <p>Esta es la clave de acceso <input type="text" id="mostrar" readonly="readonly"> </p>
-
-          <br>
-          <p><button onclick="location.href='index.html'"> SALIR </button></p>
-     
+          <p><input type= "button" value="Crear" id="crear" ></p>
+          <p>Esta es la clave de acceso <input type="text" id="mostrar" readonly="readonly"></p>
+          <p><button onclick="location.href='index.html'" id="salir"> SALIR </button></p>
+  
      </div>
 
+</center>
 
-    </div>
+      <br>
+      <br>
+      <div class="piedepagina">
+
+          <p>Gracias por su visita</p>
+        </div>
+  
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+  </div>  
   </body>
 </html>

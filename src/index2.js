@@ -6,5 +6,4 @@ let verificar = document.getElementById("verificar");
 button.addEventListener("click",() => {
  const resul = window.cipher.decode(numeroEmpleado.value, frase.value); 
   verificar.value = resul
-  
 });
