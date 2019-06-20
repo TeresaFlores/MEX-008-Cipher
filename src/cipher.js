@@ -29,15 +29,16 @@ window.cipher = {
     if (letter1 >=65 && letter1<=90){
       let newASCII2 =(letter1-65-numero+52)%26+65;
       let newTexto=(String.fromCharCode(newASCII2));
-      code1= code1 + newTexto
+      code1= code1 + newTexto;
     } else if (letter1 >= 97 && letter1 <=122){
       let newASCII2= (letter1-97-numero+52)%26+97;
-      let newTexo=(String.fromCharCode(newASCII2));
-     code1= code1 + newTexo
+      let newTexto=(String.fromCharCode(newASCII2));
+     code1= code1 + newTexto;
     }else{
       code1= code1 + texto[i];
      }
-    return code1;
   }
+  return code1;
+
 }
 }
