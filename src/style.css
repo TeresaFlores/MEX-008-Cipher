@@ -6,6 +6,9 @@
     width: 700px;
 }
 .imagen-abogado{
-    height: 350px;
-    width: 500px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
 }
